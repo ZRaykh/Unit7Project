@@ -20,7 +20,7 @@ public class PostageCalculator {
 
     public static double calculatePostage(Address a, Address b, double lb, double h, double w, double l)
     {
-
+        return a;
     }
 
     public static double calculatePostage(Package p)
