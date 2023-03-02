@@ -11,12 +11,12 @@ public class PackageSimulator
 
     }
 
-    /*/public String generateZip()
+    public String generateZip()
     {
-
-        DecimalFormat d = new DecimalFormat("00");
+        DecimalFormat d = new DecimalFormat("000");
         String zip = "";
-        zip += (int) (Math.random() * 10);
-        zip += d.format((int) (Math.random() * 100));
-    }/*/
+        zip += d.format((int) (Math.random() * 995) + 5);
+        zip += "01";
+        return zip;
+    }
 }
